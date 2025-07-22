@@ -91,6 +91,11 @@ main{
     box-shadow: 5px 5px 25px 5px rgba(244, 165, 96, 0.281);
     border-radius: 10px;
 }
+.collection-container>div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: aqua;
+}
 .collection-title{
     font-size: 1.75rem;
     font-weight: 600;
